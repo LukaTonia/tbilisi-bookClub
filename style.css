@@ -89,4 +89,26 @@ body {
   cursor: pointer;
 }
 
+.random-info {
+  font-family: Roboto;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+.middle-section-info-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+.info {
+  max-width: 200px;
+}
 
+.info img {
+  width: 100px;
+  height: 100px;
+}
+
+.info-text {
+  width: 100px;
+}
