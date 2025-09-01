@@ -151,9 +151,39 @@ body {
   font-size: 30px;
   font-weight: bold;
   color: #1f2937;
-  align-self: flex-end;
 }
 
 .quote-container {
   max-width: 900px;
 }
+
+.last-section {
+  height: 300px;
+}
+
+.action-call-container {
+  margin: 80px 80px 80px 80px;
+  padding: 10px 10px 10px 10px;
+
+  display: flex;
+  justify-content: center;
+  background-color: #3882f6;
+  align-items: center;
+}
+
+.text-container {
+  padding: 30px;
+}
+.call-to-action {
+  font-family: Roboto;
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+}
+
+.sign-up-for-club {
+  font-family: Roboto;
+  font-size: 14px;
+  color: white;
+}
+
