@@ -131,9 +131,11 @@ body {
 
 .quote-section-container {
   background-color: #e5e7eb;
-
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding: 80px;
 }
 
 .quote {
@@ -141,10 +143,7 @@ body {
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 70px 50px
+  margin-bottom: 20px;
 }
 
 .author {
@@ -152,4 +151,9 @@ body {
   font-size: 30px;
   font-weight: bold;
   color: #1f2937;
+  align-self: flex-end;
+}
+
+.quote-container {
+  max-width: 900px;
 }
