@@ -159,16 +159,19 @@ body {
 
 .last-section {
   height: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .action-call-container {
   margin: 80px 80px 80px 80px;
   padding: 10px 10px 10px 10px;
-
+  width: 700px;
   display: flex;
   justify-content: center;
   background-color: #3882f6;
   align-items: center;
+  border-radius: 10px;
 }
 
 .text-container {
@@ -187,3 +190,14 @@ body {
   color: white;
 }
 
+.sign-up-button-container button {
+  font-family: Roboto;
+  color: white;
+  background-color: transparent;
+  border: solid white 2px;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 10px 10px 10px;
+  width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+}
