@@ -192,6 +192,8 @@ body {
 
 .sign-up-button-container button {
   font-family: Roboto;
+  font-weight: 900;
+  font-size: 14px;
   color: white;
   background-color: transparent;
   border: solid white 2px;
@@ -200,4 +202,15 @@ body {
   width: 150px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+footer {
+  height: 55px;
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+}
+footer p {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
